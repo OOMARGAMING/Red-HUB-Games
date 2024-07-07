@@ -1,6 +1,6 @@
-local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local window = kavoUi.CreateLib("Red HUB Games","DarkTheme")
-
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/u88sELdu"))()
+local window = kavoUi.CreateLib("Red HUB Games","BloodTheme")
+---BloodTheme 
 ---Tabs
 local Tab1 = window:NewTab("Games")
 local Tab1Section = Tab1:NewSection("Games")
@@ -27,8 +27,16 @@ Tab1Section:NewButton("Brookhaven🏡RP", "No description", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 end)
 
+Tab1Section:NewButton("Blade Ball", "No description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+end)
+
 Tab1Section:NewButton("Doors 👁 [🌐]", "No description", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+Tab1Section:NewButton("Arsenal","No description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
 end)
 
 Tab1Section:NewButton("💪Muscle Legends", "No description",function()
@@ -39,17 +47,14 @@ Tab1Section:NewButton("Rainbow Friends","No description",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Rainbow-Friends/main/Rainbow%20Friends"))()
 end)
 
-Tab1Section:NewButton("Arsenal","No description",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
-end)
-
 Tab1Section:NewButton("Bloxfruit", "No description", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
 end)
 
+
 ---Tap 2 Updates
 
-Tab2Section:NewButton("Added more games","Aresenal & Rainbow Friends &  Doors 👁 & Brookhaven🏡RP ",function()
+Tab2Section:NewButton("Added more games","Aresenal & Doors 👁 &  Brookhaven🏡RP ",function()
 end)
 
 ---Tap 3 Others
